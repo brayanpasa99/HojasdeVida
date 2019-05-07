@@ -3,44 +3,103 @@
     <head>
         <title>Hoja de vida</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="hdvb.css">
     </head>
     <body>
         <header>
-            Hoja de vida
+            <h1>Hoja de vida</h1>
         </header>
         <nav>
-            <ul>
-                <li>
-                    <a href="HojaMateo.html">Hoja de vida Mateo</a>
+            <ul class="menu">
+                <li class="itemmenu">
+                    <a href="HojaMateo.html" class="linkmenu">Hoja de vida Mateo</a>
                 </li>
-                <li>
-                    <a href="HojaMateo.html">Hoja de vida Juan</a>
+                <li class="itemmenu">
+                    <a href="HojaMateo.html" class="linkmenu">Hoja de vida Juan</a>
                 </li>
-                <li>
-                    <a href="HojaMateo.html">Hoja de vida Brayan</a>
+                <li class="itemmenu">
+                    <a href="HojaMateo.html" class="linkmenu">Hoja de vida Brayan</a>
                 </li>
             </ul>
         </nav>
-        <section class="column">
-            <h1>Brayan Alexander Paredes Sánchez</h1>
-            <h2>Estudiante de Ingeniería de Sistemas</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h2>Datos de contacto</h2>
-            <img src="https://static.t13.cl/images/sizes/1200x675/1533152253-whatsapp.jpg"> <p>3007862301</p>
-            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAoV1qj.img?h=351&w=624&m=6&q=60&o=f&l=f"> <p>brayanparedes@hotmail.es</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/GoogleMaps_logo.svg/245px-GoogleMaps_logo.svg.png"> <p>Transversal 50 #2A - 25</p>
-        </section>
-        <section class="column">
-            <h2>Competencias profesionales</h2>
-            <ul>
-                <li>
-                    Responsabilidad
-                </li>
-                <li>
-                    Liderazgo
-                </li>
-            </ul>
+        <br>
+        <section class="row">
+            <section class="column">
+                <h2 id="nombre">BRAYAN ALEXANDER PAREDES SÁNCHEZ</h2>
+                <h2 id="profesion">Estudiante de Ingeniería de Sistemas</h2>
+                <hr>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>DATOS DE CONTACTO</h2>
+                <hr>
+                <p>
+                    <img src="https://static.t13.cl/images/sizes/1200x675/1533152253-whatsapp.jpg" class="imagenesRedes"> 3007862301
+                </p>
+                <p>
+                    <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAoV1qj.img?h=351&w=624&m=6&q=60&o=f&l=f" class="imagenesRedes"> brayanparedes@hotmail.es
+                </p>
+                <p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/GoogleMaps_logo.svg/245px-GoogleMaps_logo.svg.png" class="imagenesRedes">Transversal 50 #2A - 25
+                </p>
+            </section>
+            <section class="column">
+                <h2>CCOMPETENCIAS PROFESIONALES</h2>
+                <hr>
+                <ul id="listaComp">
+                    <li>
+                        <span id="span1">Responsabilidad</span>
+                    </li>
+                    <li>
+                        <span id="span2">Liderazgo</span>
+                    </li>
+                </ul>
+                <h2>COMPETENCIAS LINGÜÍSTICAS</h2>
+                <hr>
+                <ul>
+                    <li id="Español">Español (nativo)</li>
+                    <li id="Ingles">Inglés (básico-intermedio)</li>
+                </ul>
+                <h2>COMPETENCIA TÉCNICA Y SOFTWARE</h2>
+                <ul>
+                    <li>Java <img src="https://i.blogs.es/6091fa/java/450_1000.jpg" class="imagenesRedes"></li>
+                    <hr>
+                    <li>Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg.png" class="imagenesRedes"></li>
+                    <hr>
+                    <li>C++ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/200px-ISO_C%2B%2B_Logo.svg.png" class="imagenesRedes"></li>
+                    <hr>
+                    <li>HTML5 y CSS <img src="https://www.paginaswebs.com/wp-content/uploads/2015/12/htcs.png" class="imagenesRedes"></li>
+                    <hr>
+                    <li>Netbeans <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/245px-Apache_NetBeans_Logo.svg.png" class="imagenesRedes"></li>
+                    <hr>
+                    <li>Pycharm <img src="https://caktus-website-production-2015.s3.amazonaws.com/media/blog-images/logo.png" class="imagenesRedes"></li>
+                </ul>
+            </section>
+            <section class="column">
+                <h2>ACTUAL PUESTO LABORAL</h2>
+                <hr>
+                <h3>Lorem ipsum</h3>
+                <h4>Lorem ipsum dolor</h4>
+                <h5>2019 - Colombia, Bogotá D.C.</h5>
+
+                <h2>ANTERIORES PUESTOS LABORALES</h2>
+                <hr>
+                <h3>Lorem ipsum</h3>
+                <h4>Lorem ipsum dolor</h4>
+                <h5>2018-2019 Colombia, Bogotá D.C.</h5>
+                <h3>Lorem ipsum</h3>
+                <h4>Lorem ipsum dolor</h4>
+                <h5>2017-2018 Colombia, Bogotá D.C.</h5>
+                <h3>Lorem ipsum</h3>
+                <h4>Lorem ipsum dolor</h4>
+                <h5>2016-2017 Colombia, Bogotá D.C.</h5>
+
+                <h2>FORMACIÓN ACADÉMICA</h2>
+                <hr>
+                <p><h3>Universidad Distrital Francisco José de Caldas</h3>
+                <h4>Ingeniería de Sistemas</h4>
+                <h5>2017-2019 Colombia, Bogotá D.C.</h5>
+            </section>
         </section>
     </body>
 </html>
