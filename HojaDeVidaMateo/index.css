@@ -1,0 +1,196 @@
+body { font: 16px Helvetica, Sans-Serif;
+  line-height: 24px;
+  background: url(images/fondo_2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+.clear { clear: both; }
+
+.intro{
+  position: relative;
+  top: -565px;
+  left: 370px;
+  font-family: Georgia,serif;
+  color: rgb(160,160,160);
+  
+}
+
+#cabezera {
+  position: relative;
+  top: 50px;
+  width: 250px;
+  height: 250px;
+}
+
+#tiempo1 {
+  position: relative;
+  top: -500px;
+  left: 300px;
+  width: 50px;
+  height: 45px;
+}
+
+#tiempo2 {
+  position: relative;
+  top: -430px;
+  left: 248px;
+  width: 50px;
+  height: 70px;
+}
+
+#tiempo3 {
+  position: relative;
+  top: -380px;
+  left: 192px;
+  width: 50px;
+  height: 45px;
+}
+
+#educacion{
+  position: relative;
+  top: -270px;
+  left: 300px;
+  width: 250px;
+  height: 250px;
+  font-size: 30px;
+  font-family: Georgia,serif;
+  color: rgb(160,160,160);
+}
+
+.hobbies{
+  position: absolute;
+  top: 420px;
+  left: 370px;
+  font-family: Georgia,serif;
+  color: rgb(240,240,240);
+  align-items:center;
+}
+
+#hobbies{
+  position:absolute;
+  top: 380px;
+  left: 300px;
+  width: 250px;
+  height: 250px;
+  font-size: 30px;
+  font-family: Georgia,serif;
+  color: rgb(240,240,240);
+}
+
+#hobbies1 {
+  position: absolute;
+  top: 420px;
+  left: 300px;
+  width: 50px;
+  height: 45px;
+}
+
+#hobbies2 {
+  position: absolute;
+  top: 485px;
+  left: 300px;
+  width: 50px;
+  height: 45px;
+}
+
+#hobbies3 {
+  position: absolute;
+  top: 570px;
+  left: 300px;
+  width: 50px;
+  height: 45px;
+}
+
+.contacto{
+  position: absolute;
+  top: 710px;
+  left: 370px;
+  font-family: Georgia,serif;
+  color: rgb(240,240,240);
+  align-items:center;
+}
+
+#contacto{
+  position:absolute;
+  top: 670px;
+  left: 300px;
+  width: 250px;
+  height: 250px;
+  font-size: 30px;
+  font-family: Georgia,serif;
+  color: rgb(240,240,240);
+}
+
+#contacto1 {
+  position: absolute;
+  top: 710px;
+  left: 300px;
+  width: 50px;
+  height: 45px;
+}
+
+#contacto2 {
+  position: absolute;
+  top: 790px;
+  left: 300px;
+  width: 50px;
+  height: 45px;
+}
+
+#contacto3 {
+  position: absolute;
+  top: 860px;
+  left: 300px;
+  width: 50px;
+  height: 45px;
+}
+
+.botones{
+  position: absolute;
+  top: 520px;
+  left: 30px;
+}
+
+#boton {
+  width: 100px;
+  height: 70px;
+}
+
+
+h1 {margin: 0 0 16px 0;
+  position: relative;
+  top: 100px;
+  left: 50px;
+  color: rgb(190,190,190);
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  font-style:oblique;}
+h2 {
+  position: relative;
+  font-size: 25px;
+  top: 110px;
+  left: 40px;
+  color: rgb(190,190,190);
+  margin: 0 0 6px 0; }
+h3 {
+  position: relative;
+  font-size: 25px;
+  top: -300px;
+  left: 450px;
+  color: rgb(70,70,70);
+  margin: 0 0 6px 0;
+}
+h4 {
+  position: absolute;
+  font-size: 18px;
+  top: 460px;
+  left: 10px;
+  color: rgb(190,190,190);
+  margin: 0 0 6px 0;
+}
+p {
+   margin: 0 0 16px 0;
+}
